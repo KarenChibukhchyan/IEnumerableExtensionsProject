@@ -6,6 +6,7 @@ namespace IEnumerableExtensionsProject
     {
         public static void Main(string[] args)
         {
+
             int[] arr = new[] {1, 2, 3, 4, 5};
             var query = arr.Where_(x => x > 3);
             foreach (var element in query)
